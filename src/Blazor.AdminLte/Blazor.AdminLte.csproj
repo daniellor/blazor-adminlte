@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageId>Blazorized.AdminLte</PackageId>
@@ -13,22 +13,22 @@
     <RepositoryUrl>https://github.com/sjefvanleeuwen/blazor-adminlte</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageTags></PackageTags>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
     <Title>ADMINLTE for Blazor</Title>
     <Description>ADMINLTE for Blazor is a collection of reusable components, with which you can easily develop digital services as a designer or developer. Think of buttons, form elements and page templates. This project adapts ADMINLTE 3 so the components can be used from dotnet core Blazor.</Description>
     <NeutralLanguage></NeutralLanguage>
     <Copyright>Copyright (c) 2020-2021 Sjef van Leeuwen</Copyright>
     <PackageIcon>blazor-adminlte-256.png</PackageIcon>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageVersion>0.1.8</PackageVersion>
+    <PackageVersion>0.2.1</PackageVersion>
     <PackageReleaseNotes></PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Blazor-State" Version="3.4.4" />
+    <PackageReference Include="Blazor-State" Version="4.0.1" />
     <PackageReference Include="Blazorized.AdminLte.Content" Version="3.0.7" />
-    <PackageReference Include="Microsoft.AspNetCore.Components" Version="5.0.2" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components" Version="6.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.1" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\LICENSE">
